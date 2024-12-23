@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🤞🏽KaMyKaZz Lounge🤞🏽</title>
+    <title>🤞🏽The Lounge🤞🏽</title>
     <style>
         body {
-            font-family: 'Arial', sans-serif;
+            font-family: 'Courier New', Courier, monospace;
             background-image: url('https://wallpaperaccess.com/full/3492868.gif');
             background-size: cover;
             background-repeat: no-repeat;
@@ -14,74 +14,78 @@
             margin: 0;
             padding: 0;
             text-align: center;
-            color: white;
+            color: #00FF00;
             transition: background-image 0.5s ease-in-out;
         }
         header {
-            background-color: rgba(0, 0, 0, 0.8);
-            color: #1101f8;
+            background-color: rgba(0, 0, 0, 0.9);
+            color: #00FF00;
             padding: 20px 0;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header-title {
+            flex: 1;
+            text-align: center;
         }
         .container {
             width: 90%;
             max-width: 1200px;
             margin: 40px auto;
-            background-color: rgba(0, 0, 0, 0.8);
+            background-color: rgba(0, 0, 0, 0.9);
             padding: 30px;
             border-radius: 10px;
-            box-shadow: 0 4px 8px #1101f8;
+            box-shadow: 0 4px 60px #00FF00;
             backdrop-filter: blur(10px);
         }
         .file-section {
             margin: 30px 0;
         }
-        .file-section h2 {
-            color: #006eff;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            margin-bottom: 10px;
-        }
-        .file-section h4 {
-            color: #f9fab0;
+        .file-section h2, .file-section h4 {
+            color: #00FF00;
             text-transform: uppercase;
             letter-spacing: 1px;
             margin-bottom: 10px;
         }
         .file-section p {
             font-size: 1.2em;
-            color: #dcdcdc;
+            color: #00FF00;
             margin-bottom: 20px;
         }
         .file-section img {
             width: 250px;
             height: 160px;
             margin-bottom: 20px;
-            border: 4px solid #006eff; /* Contour bleu */
+            border: 4px solid #00FF00;
             border-radius: 5px;
         }
         .file-list {
             margin: 20px 0;
-            text-align: left;
+            text-align: center; /* Change to center the content */
         }
         .file-item {
             margin: 15px 0;
             padding: 10px;
-            background-color: rgba(255, 255, 255, 0.1);
+            background-color: rgba(0, 255, 0, 0.1);
             border-radius: 5px;
             transition: background-color 0.3s;
         }
-        .file-item a {
-            color: #00BFFF;
+        .file-item a, .file-item button {
+            color: #00FF00;
             text-decoration: none;
             font-size: 1.1em;
+            background: none;
+            border: none;
+            cursor: pointer;
         }
-        .file-item a:hover {
+        .file-item a:hover, .file-item button:hover {
             text-decoration: underline;
-            color: #91e4e7;
+            color: #00FF00;
         }
         .file-item:hover {
-            background-color: rgba(255, 255, 255, 0.2);
+            background-color: rgba(0, 255, 0, 0.2);
         }
         .background-input {
             margin: 20px auto;
@@ -95,29 +99,32 @@
             border: none;
             border-radius: 5px;
             margin-right: 10px;
+            background-color: #00FF00;
+            color: #000;
         }
         .background-input button {
             padding: 10px 20px;
-            background-color: #FFD700;
-            color: black;
+            background-color: #00FF00;
+            color: #000;
             border: none;
             border-radius: 5px;
             cursor: pointer;
             transition: background-color 0.3s;
         }
         .background-input button:hover {
-            background-color: #f3de9b;
+            background-color: #00FF00;
         }
-   
     </style>
 </head>
 <body>
     <header>
-        <h1>🤞🏽KaMyKaZz Lounge🤞🏽</h1>
+        <div class="header-title">
+            <h1>🤞🏽The Lounge🤞🏽</h1>
+        </div>
     </header>
     <div class="container">
         <div class="file-section">
-            <h4>| All payments will be made on discord | Except discount code</h4>
+            <h4>| All payments will be made on discord |</h4>
             <p></p>
             <div class="file-list">
                 <div class="file-list"></div>
@@ -125,45 +132,27 @@
         </div>
         <div class="file-section">
             <h2>Linktree Lifetime & Custom [10$]</h2>
-            <img src="https://media.discordapp.net/attachments/1318001909046706317/1318002028592631828/image.png?ex=6760bc8a&is=675f6b0a&hm=a41749cb9bbf4d7171767828a5cd2d8a5f8dab1280bc3e25966ceb178b239be8&=&format=webp&quality=lossless&width=788&height=328" alt="Image 1">
-            <p>Customizable :
-
-                Middle Picture/Gif |
-                Background Picture/Gif |
-                Social Media Link/Names |
-                Your Name/Pseudo | 
-                
-                Prices : 
-                
-                10$ Lifetime & Custom |
-                10$ Per Modification |
-                Exemple : Add a youtube chanel link
+            <p>[Customizable :[]
+                <br>Middle Picture/Gif 
+                <br>Background Picture/Gif 
+                <br>Social Media Link/Names 
+                <br>Your Name/Pseudo 
+                <br>[Prices :]
+                <br>10$ Lifetime & Custom 
+                <br>10$ Per Modification 
+                <br>Example: Add a YouTube channel link
             </p>
             <div class="file-list">
                 <div class="file-list">
-                    <div class="file-item"> <button onclick="window.location.href='https://discord.gg/xpWgnUTPXX';">Buy (Go to discord)</button> </div>
-                </div>
-            </div>
-        </div>
-        <div class="file-section">
-            <h2>Private Online Chat [5$]</h2>
-            <img src="https://media.discordapp.net/attachments/1309941314770571274/1309941641536081921/image.png?ex=67606ab8&is=675f1938&hm=dbe09765a461fc429775e1a589d665e2d7fbebfd37c6ed1f861e4e72fff74dd2&=&format=webp&quality=lossless&width=788&height=526" alt="Image 2">
-            <p>Can choose color and names
-            </p>
-            <div class="file-list">
-                <div class="file-list">
-                    <div class="file-item"> <button onclick="window.location.href='https://discord.gg/XtmzavW2Ms';">Buy (Go to discord)</button> </div>
+                    <div class="file-item"> <button onclick="window.location.href='https://discord.gg/xpWgnUTPXX';">Discord</button> </div>
                 </div>
             </div>
         </div>
         <div class="file-section">
             <h2>Counter-Strike 2 Cheat [Free 1 Year]</h2>
-            <img src="https://media.discordapp.net/attachments/1318001909046706317/1318002148914626607/image.png?ex=6760bca7&is=675f6b27&hm=0246664e0b2df12fc337f4a238b8b776c56390a7f1a0073b5416a2f07abeb2f4&=&format=webp&quality=lossless" alt="Image 3">
-            <p>Free Version 365Days |
-
-                Undetectable 🟢 |
-                
-                Esp & TriggerBot
+            <p>Free Version 365 Days 
+                <br>Undetectable 🟢 
+                <br>ESP & TriggerBot
             </p>
             <div class="file-list">
                 <div class="file-item"> <button onclick="window.location.href='https://mega.nz/folder/uEZT0LCT#RLV2hOW1PzIhwKiMwr4OtQ';">Download</button> </div>
@@ -171,51 +160,30 @@
         </div>
         <div class="file-section">
             <h2>Webhook Discord Controller [Free/Website]</h2>
-            <img src="https://media.discordapp.net/attachments/1318001909046706317/1318002195186188338/image.png?ex=6760bcb2&is=675f6b32&hm=fc6ea95f83dc539d41e5dd854b4de285bbbb1746b7872ea6e1db8ad84d2ba3f9&=&format=webp&quality=lossless&width=788&height=341" alt="Image 4">
             <p>This is free to use !</p>
             <div class="file-list">
                 <div class="file-list">
-                    <div class="file-item"> <button onclick="window.location.href='https://thekamykazz.github.io/Webhook-Discord-Controller/';">Go To(Website)</button> </div>
-                </div>
-            </div>
-        </div>
-        <div class="file-section">
-            <h2>Cortax Cfx Spoofer [Code:Kamykazz]</h2>
-            <img src="https://media.discordapp.net/attachments/1309947158816096337/1317385045308342283/college-waiting-list-blog.png?ex=675e7dee&is=675d2c6e&hm=02575297b8dc2c8725ca03592c8eb4f0f169d9aaba4e2c7553aea1e343d4757c&=&format=webp&quality=lossless&width=788&height=557" alt="Image 5">
-            <p>
-🔴Discount code not working right-now🔴
-[5.99€-3days]→
-[9.99€-1Week]→
-[14.99€-1Month]→
-[19.99€-Lifetime]→
-
-Have xx% reduction with the code : thekamykazz |
-
-only → Litecoin ✅
-Bitcoin ✅
-Eth ✅
-            </p>
-            <div class="file-list">
-                <div class="file-list">
-                    <div class="file-item"> <button onclick="window.location.href='https://cortax.mysellix.io/fr/products';">Go To</button> </div>
+                    <div class="file-item"> <button onclick="window.location.href='https://thekamykazz.github.io/Webhook-Discord-Controller/';">Website</button> </div>
                 </div>
             </div>
         </div>
         <div class="file-section">
             <h2>Universal Recoil[Free]</h2>
-            <img src="https://media.discordapp.net/attachments/1318001909046706317/1318002497821999185/4IM5ory.png?ex=6760bcfa&is=675f6b7a&hm=6704ba7cca30147ff9b3a232b0e1eaf191201b86bae5881ee52ecdbf9bc96037&=&format=webp&quality=lossless" alt="Image 6">
-            <p>Free |
-
-                Undetectable 🟢 |
-                
-                Set your own anti-recoil
+            <p>     Free 
+                <br>Undetectable 🟢 
+                <br>Set your own anti-recoil
             </p>
             <div class="file-list">
-                <div class="file-item"> <button onclick="window.location.href='https://discord.gg/Ae6J3ccvTB';">Go To</button> </div>
+                <div class="file-item"> <button onclick="window.location.href='https://discord.gg/Ae6J3ccvTB';">Discord</button> </div>
             </div>
         </div>
-        
-        <!-- Ajoutez plus de sections comme celles-ci pour les autres fichiers -->
+        <div class="file-section">
+            <h2></h2>
+            <p>[More coming soon | join our discord]</p>
+            <button onclick="window.location.href='https://discord.gg/xpWgnUTPXX';">Join Discord</button>
+            <div class="file-list">
+            </div>
+        </div>
     </div>
 
     <script>
