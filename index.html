@@ -1,197 +1,122 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🤞🏽The Lounge🤞🏽</title>
+    <title>🤞The Lounge🤞</title>
     <style>
         body {
-            font-family: 'Courier New', Courier, monospace;
-            background-image: url('https://wallpaperaccess.com/full/3492868.gif');
+            background: url('https://i.pinimg.com/originals/bd/1b/04/bd1b04ae480a107f6335219c6a561f6d.gif') no-repeat center center fixed;
             background-size: cover;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-            color: #00FF00;
-            transition: background-image 0.5s ease-in-out;
+            color: white;
+            font-family: Arial, sans-serif;
         }
         header {
-            background-color: rgba(0, 0, 0, 0.9);
-            color: #00FF00;
-            padding: 20px 0;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        .header-title {
-            flex: 1;
             text-align: center;
+            padding: 20px;
         }
-        .container {
-            width: 90%;
-            max-width: 1200px;
-            margin: 40px auto;
-            background-color: rgba(0, 0, 0, 0.9);
-            padding: 30px;
+        header img {
+            width: 150px;
             border-radius: 10px;
-            box-shadow: 0 4px 60px #00FF00;
-            backdrop-filter: blur(10px);
+            box-shadow: 0 0 15px #9400D3; /* Effet néon */
+            filter: drop-shadow(0 0 15px #9400D3); /* Effet néon */
         }
-        .file-section {
-            margin: 30px 0;
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
         }
-        .file-section h2, .file-section h4 {
-            color: #00FF00;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            margin-bottom: 10px;
+        .product {
+            background: rgba(0, 0, 0, 0.948); /* Mauve transparent */
+            border: 1px solid #9400D3; /* Mauve néon */
+            margin: 20px;
+            padding: 20px;
+            width: 200px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 0 15px #9400D3; /* Effet néon */
         }
-        .file-section p {
-            font-size: 1.2em;
-            color: #00FF00;
-            margin-bottom: 20px;
+        .product img {
+            width: 100%;
+            border-radius: 10px;
         }
-        .file-section img {
-            width: 250px;
-            height: 160px;
-            margin-bottom: 20px;
-            border: 4px solid #00FF00;
-            border-radius: 5px;
-        }
-        .file-list {
-            margin: 20px 0;
-            text-align: center; /* Change to center the content */
-        }
-        .file-item {
-            margin: 15px 0;
-            padding: 10px;
-            background-color: rgba(0, 255, 0, 0.1);
-            border-radius: 5px;
-            transition: background-color 0.3s;
-        }
-        .file-item a, .file-item button {
-            color: #00FF00;
+        .product a {
+            color: #e4a3fa;
             text-decoration: none;
-            font-size: 1.1em;
-            background: none;
-            border: none;
-            cursor: pointer;
+            font-weight: bold;
+            display: block;
+            margin-top: 10px;
         }
-        .file-item a:hover, .file-item button:hover {
-            text-decoration: underline;
-            color: #00FF00;
+        .icon {
+            width: 60px; /* Adjust the size as needed */
+            height: 60px;
+            margin: 0 15px;
+            filter: drop-shadow(0 0 5px #e4a3fa);
+            transition: filter 0.3s;
         }
-        .file-item:hover {
-            background-color: rgba(0, 255, 0, 0.2);
+        .icon:hover {
+            filter: drop-shadow(0 0 15px #e4a3fa);
         }
-        .background-input {
-            margin: 20px auto;
-            padding: 15px;
-            background-color: rgba(0, 0, 0, 0.5);
-            border-radius: 8px;
-            width: fit-content;
-        }
-        .background-input input {
-            padding: 10px;
-            border: none;
-            border-radius: 5px;
-            margin-right: 10px;
-            background-color: #00FF00;
-            color: #000;
-        }
-        .background-input button {
-            padding: 10px 20px;
-            background-color: #00FF00;
-            color: #000;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
-        .background-input button:hover {
-            background-color: #00FF00;
+        h1 {
+            text-shadow: 2px 2px 4px #000000;
         }
     </style>
 </head>
 <body>
     <header>
-        <div class="header-title">
-            <h1>🤞🏽The Lounge🤞🏽</h1>
-        </div>
+        <a href="https://discord.gg/zUDBE8GdSv" target="_blank">
+            <img src="https://i.ibb.co/RS9Z1p0/discord-icon-130958.webp" alt="Discord" class="icon">
+        </a>
+        <img src="https://i.ibb.co/ZGDqqGb/the-lounge.png" alt="the-lounge">
+        <a href="https://www.tiktok.com/@theeloungee" target="_blank">
+            <img src="https://i.ibb.co/kMwQ19r/tik-tok-icon-2048x2048-mmnsrcbe.webp" alt="TikTok" class="icon">
+        </a>
+        <h1>🤞The Lounge🤞</h1>
     </header>
-    <div class="container">
-        <div class="file-section">
-            <h4>| All payments will be made on discord |</h4>
-            <p></p>
-            <div class="file-list">
-                <div class="file-list"></div>
-            </div>
+    <div class="products">
+        <div class="product">
+            <img src="https://i.ibb.co/r0xDj1T/maxresdefault.webp" alt="Silence V4">
+            <h2>Sience V4</h2>
+            <a href="https://link-hub.net/1269551/fivem-silence-v4">More details</a>
         </div>
-        <div class="file-section">
-            <h2>Linktree Lifetime & Custom [10$]</h2>
-            <p>[Customizable :[]
-                <br>Middle Picture/Gif 
-                <br>Background Picture/Gif 
-                <br>Social Media Link/Names 
-                <br>Your Name/Pseudo 
-                <br>[Prices :]
-                <br>10$ Lifetime & Custom 
-                <br>10$ Per Modification 
-                <br>Example: Add a YouTube channel link
-            </p>
-            <div class="file-list">
-                <div class="file-list">
-                    <div class="file-item"> <button onclick="window.location.href='https://discord.gg/xpWgnUTPXX';">Discord</button> </div>
-                </div>
-            </div>
+        <div class="product">
+            <img src="https://i.ibb.co/5R60Vcm/image.webp" alt="Produit 2">
+            <h2>TrashCrack</h2>
+            <a href="https://link-target.net/1269551/trashcrack-fivem-cheat">More details</a>
         </div>
-        <div class="file-section">
-            <h2>Counter-Strike 2 Cheat [Free 1 Year]</h2>
-            <p>Free Version 365 Days 
-                <br>Undetectable 🟢 
-                <br>ESP & TriggerBot
-            </p>
-            <div class="file-list">
-                <div class="file-item"> <button onclick="window.location.href='https://mega.nz/folder/uEZT0LCT#RLV2hOW1PzIhwKiMwr4OtQ';">Download</button> </div>
-            </div>
+        <div class="product">
+            <img src="https://i.ibb.co/6gpypvS/image.webp" alt="CS-2 Cheat">
+            <h2>CS-2 Cheat</h2>
+            <a href="https://direct-link.net/1269551/free-cs2-cheat">More details</a>
         </div>
-        <div class="file-section">
-            <h2>Webhook Discord Controller [Free/Website]</h2>
-            <p>This is free to use !</p>
-            <div class="file-list">
-                <div class="file-list">
-                    <div class="file-item"> <button onclick="window.location.href='https://thekamykazz.github.io/Webhook-Discord-Controller/';">Website</button> </div>
-                </div>
-            </div>
+        <div class="product">
+            <img src="https://i.ibb.co/bJgs8sW/image.webp" alt="Twitch Bots">
+            <h2>Twitch Bots</h2>
+            <a href="https://discord.com/channels/1203782971719684106/1320158868726087790/1320161061286051890">More details</a>
         </div>
-        <div class="file-section">
-            <h2>Universal Recoil[Free]</h2>
-            <p>     Free 
-                <br>Undetectable 🟢 
-                <br>Set your own anti-recoil
-            </p>
-            <div class="file-list">
-                <div class="file-item"> <button onclick="window.location.href='https://discord.gg/Ae6J3ccvTB';">Discord</button> </div>
-            </div>
+        <div class="product">
+            <img src="https://i.ibb.co/DVFhL5S/image.webp" alt="New Product 1">
+            <h2>Linktree Custom</h2>
+            <a href="https://discord.gg/xpWgnUTPXX">More details</a>
         </div>
-        <div class="file-section">
-            <h2></h2>
-            <p>[More coming soon | join our discord]</p>
-            <button onclick="window.location.href='https://discord.gg/xpWgnUTPXX';">Join Discord</button>
-            <div class="file-list">
-            </div>
+        <div class="product">
+            <img src="https://i.ibb.co/N9mZ7Rw/image.webp" alt="New Product 2">
+            <h2>Linktree Source Code</h2>
+            <a href="https://discord.gg/QmF6Gcqv">More details</a>
         </div>
-    </div>
-
-    <script>
-        // Fonction pour changer l'image de fond
-        function changeBackground() {
-            const url = document.getElementById('backgroundUrl').value;
-            document.body.style.backgroundImage = `url(${url})`;
-        }
-    </script>
+        <div class="product">
+            <img src="https://i.ibb.co/PrT8Xfm/image.webp" alt="New Product 3">
+            <h2>Webhook Controller</h2>
+            <a href="https://thekamykazz.github.io/Webhook-Discord-Controller/">More details</a>
+        </div><!-- copier --> 
+        <div class="product">
+            <img src="https://i.ibb.co/PmvkpFM/image.webp" alt="New Product 4">
+            <h2>Universal Recoil</h2>
+            <a href="https://discord.gg/Ae6J3ccvTB">More details</a>
+        </div>
+    </div><!-- copier --> 
+    </a>
+    <h1>More coming soon ... </h1>
+            <!-- Ajouter plus de produits ici -->
 </body>
 </html>
